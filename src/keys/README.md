@@ -2,7 +2,7 @@
 
 ## Methods
 
-#### `keyup`, `keydown`, `keypressz`
+#### `keyup`, `keydown`, `keypress`
 ```ts
 import { keyup, keydown, keypress } from 'dom-effects'
 

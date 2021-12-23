@@ -16,7 +16,8 @@ mousewheel.watch(console.log);
 
 #### `nonGhost` - Filters ghost clicks
 
-> **Ghost-Click** is when you perform `mousedown`, move mouse a little bit and then do `mouseup`. In cases such as drag-and-drop, it's important to prevent ghost clicks
+> **Ghost-Click** is when you perform `mousedown`, move mouse a little bit and then do `mouseup`.  
+> In cases such as drag-and-drop, it's important to prevent ghost clicks
 
 ```ts
 import { click, nonGhost, onTarget, createRefStore } from 'dom-effects'
