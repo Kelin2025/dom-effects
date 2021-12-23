@@ -6,7 +6,7 @@ export const createRefStore = <El extends HTMLElement>() => {
   const refRemoved = createEvent<El>();
   const $current = createStore<El | null>(null);
 
-  $current.on(refAdded, (prev, next) => next).on(refRemoved, () => null);
+  $current.on(refAdded, (_prev, next) => next).on(refRemoved, () => null);
 
   return { $current, refAdded, refRemoved };
 };

@@ -23,10 +23,10 @@
     "react": ">=16"
   },
   "devDependencies": {
+    "@types/react": "^17.0.38",
     "effector": "^22",
     "tsdx": "^0.14.1"
   },
-  "dependencies": {},
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
