@@ -1,5 +1,5 @@
 import { guard, sample, Store, Event as EffectorEvent } from 'effector';
-import { preventDefault } from '../effects/prevent';
+import { preventDefault } from '../modifiers/prevent';
 
 const targetFilters: Record<
   string,
