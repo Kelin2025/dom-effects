@@ -13,7 +13,8 @@ const blockRef = createRefStore<HTMLDivElement>()
 
 const blockClicked = onTarget({
   clock: click,
-  current: blockRef.$current
+  current: blockRef.$current,
+  prevent: true // Optional. Similar to evt.preventDefault()
 })
 ```
 
@@ -29,5 +30,6 @@ const blockRef = createRefStore<HTMLDivElement>();
 const blockClicked = offTarget({
   clock: click,
   current: blockRef.$current,
+  prevent: true // Optional. Similar to evt.preventDefault()
 });
 ```
