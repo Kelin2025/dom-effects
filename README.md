@@ -10,7 +10,7 @@ Collection of DOM utilities built on top of effector
 - Effects
   - [Focus input](src/effects/README.md)
 - Guards
-  - [Filtering by event target](src/guard/README.md)
+  - [Filtering by event target](src/guards/README.md)
 - Modifiers
   - [`preventDefault`](src/modifiers/README.md)
   - [`stopPropagation`](src/modifiers/README.md)
